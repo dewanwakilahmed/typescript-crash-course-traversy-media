@@ -50,3 +50,22 @@ enum Direction3 {
 console.log(Direction1.Left);
 console.log(Direction2.Up);
 console.log(Direction3.Down);
+
+// Objects
+const user: {
+  id: number;
+  name: string;
+} = {
+  id: 1,
+  name: 'John',
+};
+
+type Student = {
+  id: number;
+  name: string;
+};
+
+const student: Student = {
+  id: 1,
+  name: 'John',
+};
