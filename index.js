@@ -44,3 +44,25 @@ var Direction3;
 console.log(Direction1.Left);
 console.log(Direction2.Up);
 console.log(Direction3.Down);
+// Objects
+const user = {
+    id: 1,
+    name: 'John',
+};
+const student = {
+    id: 1,
+    name: 'John',
+};
+// Type Assertion
+let cid = 1;
+// let customerId = <number>cid;
+let customerId = cid;
+// Functions
+function addNum(x, y) {
+    return x + y;
+}
+console.log(addNum(1, 2));
+// Void
+function log(message) {
+    console.log(message);
+}
