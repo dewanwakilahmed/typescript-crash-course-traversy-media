@@ -1,7 +1,7 @@
 // Basic Types
 let id: number = 5;
 let company: string = 'Traversy Media';
-let isPubished: boolean = true;
+let isPublished: boolean = true;
 let x: any = 'Hello';
 
 // Arrays
@@ -98,3 +98,6 @@ const user1: UserInterface = {
   id: 1,
   name: 'John',
 };
+
+type Point = number | string;
+const p1: Point = 1;
